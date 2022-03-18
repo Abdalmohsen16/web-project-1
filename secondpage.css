@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+   
+a {
+text-decoration: none;
+color: black;
+
+}
+
+.text-back {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text {
+    color: rgb(14, 20, 48);
+    padding-top: 30px;
+}
+
+.body-text {
+    color: rgb(14, 20, 48);
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px
+}
+
+.body-text2 {
+    color: rgb(14, 20, 48);
+    align-items: center;
+    font-size: 20px
+}
+
+
+.slidee {
+    box-shadow: inset 1px 1px 10px black;
+    
+}
+
+.imgg {
+    width: 230px;
+    height: 350px;
+    border-radius: 10%;
+    margin-top: 5%
+}
+
+.divp {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.dcell {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+}
+
+.cell {
+    color: rgb(0, 7, 44);
+    margin-top: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid rgb(0, 7, 44);
+}
+
+.btmbar {
+    background-color: rgb(0, 7, 44);
+    height: 60vh;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btmhead {
+    color:rgb(60, 78, 156);
+    margin-top: -80px;
+    margin-bottom: 50px
+}
+
+.cards {
+    width: 200px;
+    background-color: rgb(130, 136, 165);
+    height: 100px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s
+}
+
+.images {
+    width: 100px
+}
+
+.btmbarr {
+    background-color: rgb(0, 7, 44);
+    width: 35%;
+    height: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.cards:hover {
+    background-color: rgb(25, 37, 94)
+}
+
+.navbarbtm {
+    background-color: rgb(0, 7, 44);
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nbtm {
+    margin: 30px;
+}
+
+.m {
+    background-color: rgba(144, 161, 255, 0.685);
+    padding: 10px 50px;
+    margin-top: 100px
+}

@@ -1,0 +1,139 @@
+body {
+    color: rgb(26, 26, 26)
+}
+
+.text-back {
+    background-color: rgb(14, 20, 48);
+    height: 45vh;
+    width: 99vw;
+}
+
+.head-text {
+    color: white;
+    padding-top: 30px;
+}
+
+.body-text {
+    color: white;
+    padding-top: 30px;
+    align-items: center;
+    font-size: 20px
+}
+
+.body-text2 {
+    color: white;
+    padding-top: 1px;
+    align-items: center;
+    font-size: 20px
+}
+
+.space {
+    width: 300px;
+    height: 50px
+    
+}
+
+.spacediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px
+}
+
+.imgsize {
+    width: 10%;
+    height: 10%;
+}
+
+
+.cards {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 150px;    
+    justify-content: space-around
+}
+
+
+.card {
+    width: 200px;
+    height: 290px;
+    border: 3px solid rgb(0, 7, 44);
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.582), 0 6px 10px 0 rgba(0, 0, 0, 0.377);;
+    transform: translateY(-15px) 
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+   
+a {
+text-decoration: none;
+color: black;
+
+}
+
+.viddiv {
+    background-color: rgb(14, 20, 48);
+    height: 500px;
+    width: 100%;
+}
+
+.video {
+    display:flex;
+    margin: auto;
+    border: 3px solid rgb(8, 112, 209);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+
+.btm {
+    background-color: rgb(0, 7, 44);
+    width: 100%;
+    height: 500px;
+    margin-top : 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btmh {
+    color: rgba(144, 161, 255, 0.685);
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.navbarbtm {
+    background-color: rgb(0, 7, 44);
+    width: 100%;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nbtm {
+    margin: 30px;
+}
+
+.m {
+    background-color: rgba(144, 161, 255, 0.685);
+    padding: 10px 50px;
+    margin-top: 130px;
+}
